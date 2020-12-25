@@ -64,6 +64,7 @@ body
     width: 80%;
     border: 5px solid;
     padding: 20px;
+    overflow: hidden;
 }
 
 .section h2
@@ -79,6 +80,15 @@ body
 .section a
 {
     font-size: 2vw;
+}
+
+.section img
+{
+    float: left;
+    margin-right: 10px;
+    min-width: 22.5vw;
+    max-width: 25vw;
+    height: auto;
 }
 
 p.title

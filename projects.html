@@ -1,97 +1,102 @@
-body
-{
-    background: #d0d0ff;
-    color: #000000;
-    font-family: Arial, serif;
-    font-size: 11pt;
-    line-height: 1.3;
-}
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Andy Le | Projects</title>
+		<link rel = "stylesheet" href = "style.css" type = "text/css">
+	</head>
+	
+	<body>
+	    <div class = "sidebar">
+	        <h2>Contact Info:</h2>
+	        <p><a href = "mailto: vinhandyle@gmail.com">Email</a></p>
+	        <p><a href = "https://github.com/vinhandyle">GitHub</a></p>
+	        <p><a href = "https://www.linkedin.com/in/vinh-andy-le/">LinkedIn</a></p>
+	        <p><a href = "https://uci.joinhandshake.com/users/25977945">UCI Handshake</a></p>
+	    </div>
 
-.sidebar
-{
-    height: 100%;
-    width: 160px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #000080;
-    overflow-x: hidden;
-    padding-top: 20px;
-    padding-left: 20px;
-}
+        <div class = "center">
+            <div class = "navbar">
+	            <p class = "title">My Projects</p>
+	            <p>
+	                <a href = "index.html">Home</a>
+	                <a href = "projects.html">Projects</a>
+			        <a href = "resources/resume.pdf">Resume</a>
+	            </p>
+	        </div>
+	        
+	        <div class = "section">
+	            <h2>YOUR Roguelike Adventure</h2>
+	           <img src = "https://raw.githubusercontent.com/vinhandyle/vinhandyle.github.io/master/resources/lcadproj2020.png">
+	            <p>
+	                A short roguelike shooter with dynamic difficulty. The game is
+	                being developed by a team of 5, led by a graduate student from
+	                Laguna College of Art and Design. As a programmer, I've worked
+	                on the random level generation and map selection.
+	            </p>
+	            <a href = "https://github.com/ZiyaoWang33/YOUR-Roguelike-Adventure">Link</a>
+	        </div>
+	        
+	       <div class = "section">
+	           <h2>Salvation</h2>
+	           <img src = "https://raw.githubusercontent.com/vinhandyle/vinhandyle.github.io/master/resources/salvation.png">
+	           <p>
+	               A 2D Metroidvania I developed over the summer for XPrize 
+	               Connect's Code Games. This was my first time using Unity and
+	               I got overambitious with the project. Though it didn't make it
+	               to the final round, this project was a great learning 
+	               experience. 
+	           </p>
+	           <a href = "https://github.com/vinhandyle/codegames-2020">Link</a>
+	       </div>
+	       
+	       <div class = "section">
+	           <h2>Soxar's Mod</h2>
+	           <img src = "https://raw.githubusercontent.com/vinhandyle/terraria-mods/master/SoxarsMod/icon.png">
+	           <p>
+	               A mod for Terraria I've been working on for brief periods of
+	               time over the last 2 years. Though it is currently sparse, I 
+	               plan on adding more content in the future.
+	           </p>
+	           <a href = "https://github.com/vinhandyle/terraria-mods/tree/master/SoxarsMod">Link</a>
+	       </div>
+	       
+	       <div class = "section">
+	           <h2>Snake</h2>
+	           <img src = "https://studio.code.org/v3/files/Yy188tifWs6YfuaaO_mA5FfVJ70Fzob2efl9ib6bO9s/.metadata/thumbnail.png">
+	           <p>
+	               My attempt to recreate the game Snake using Javascript. While there are
+	               some game-breaking bugs, it was fun figuring out how to get the snake
+	               to move and grow. I spent about a week on this project during my junior
+	               year of highschool.
+	           </p>
+	           <a href = "https://studio.code.org/projects/gamelab/Yy188tifWs6YfuaaO_mA5FfVJ70Fzob2efl9ib6bO9s">Link</a>
+	       </div>
+	       
+	       <div class = "section">
+	           <h2>Mining Extraordinaire</h2>
+	           <img src = "https://studio.code.org/v3/files/xCF5A5ptSiOVfkmiyFOqt3ZYAGr31RWVOM9_ffSqmh0/.metadata/thumbnail.png">
+	           <p>
+	               An idle game I made over the winter of my sophomore year in highschool,
+	               focusing on learning the UI aspect of game design.
+	           </p>
+	           <p>
+	               This was my first project outside of class. In the beginning, I had a
+	               lot of things I wanted to implement but it quicky became too large to
+	               handle. I came back after about two years to finish whatever features
+	               I had already added.
+	           </p>
+	           <a href = "https://studio.code.org/projects/applab/xCF5A5ptSiOVfkmiyFOqt3ZYAGr31RWVOM9_ffSqmh0">Link</a>
+	       </div>
+	        
+            <div class = "section">
+                <h2>Archive Website</h2>
+                <p>
+                    A website built during my days in highschool, containing my
+                    older works. I keep it around for nostalgia.
+                </p>
+                <a href = "https://codehs.com/editor/html/274119/322288/index.html">Link</a>
+            </div>
+        </div>
 
-.sidebar h2
-{
-    color: white;
-}
-
-.sidebar a
-{
-    color: white;
-    font-size: 14pt;
-}
-
-.center
-{
-    margin-left: 160px;
-}
-
-.navbar
-{
-    text-align: center;
-}
-
-.navbar p
-{
-    margin-top: 10pt;
-    margin-bottom: 10pt;
-}
-
-.navbar a
-{
-    font-size: 14pt;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.section
-{
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    border: 5px solid;
-    padding: 20px;
-    overflow: hidden;
-}
-
-.section h2
-{
-    font-size: 2.5vw;
-}
-
-.section p
-{
-    font-size: 2vw;
-}
-
-.section a
-{
-    font-size: 2vw;
-}
-
-.section img
-{
-    float: left;
-    margin-right: 10px;
-    min-width: 22.5vw;
-    max-width: 25vw;
-    height: auto;
-}
-
-p.title
-{
-    font-size: 50pt;
-}
+	</body>
+</html>
