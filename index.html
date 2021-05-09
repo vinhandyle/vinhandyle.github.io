@@ -5,38 +5,13 @@
 		<link rel = "stylesheet" href = "style.css" type = "text/css">
 	</head>
 	
-	<body>
-	    <div class = "sidebar">
-	        <h2>Contact Info:</h2>
-	        <p><a href = "mailto: vinhandyle@gmail.com">Email</a></p>
-	        <p><a href = "https://github.com/vinhandyle">GitHub</a></p>
-	        <p><a href = "https://www.linkedin.com/in/vinh-andy-le/">LinkedIn</a></p>
-	        <p><a href = "https://uci.joinhandshake.com/users/25977945">UCI Handshake</a></p>
-	    </div>
-
-        <div class = "center">
-            <div class = "navbar">
-	            <p class = "title">Welcome</p>
-	            <p>
-	                <a href = "index.html">Home</a>
-	                <a href = "projects.html">Projects</a>
-			        <a href = "resources/resume_latex.pdf">Resume</a>
-	            </p>
-	        </div>
-	    
-            <div class = "section">
-                <h2>About Me:</h2>
-	            <img src = "https://raw.githubusercontent.com/vinhandyle/vinhandyle.github.io/master/resources/self2020.PNG">
-                <p>
-                    Hello! My name is Andy Le, and I'm currently a 1st year student majoring
-                    in Computer Science at University of California, Irvine. 
-                </p>
-                <p>
-                    I am interested in game development, but also plan to explore other
-                    areas in computing.
-                </p>
-            </div>
-        </div>
-
-	</body>
+	<frameset cols = "20%, *" border = 0>
+			<frame src = "frameindex.html", name = "list">
+			<frame src = "home.html", name = "main">
+	</frameset>
+	<noframes>
+		<a href = "frameindex.html></a>
+	</noframes>
+	<!---Thank you, Alex Thornton, for the color palette--->
+	<!---Thank you, Captain Pattis, for the frames--->	
 </html>
